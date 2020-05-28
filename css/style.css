@@ -228,15 +228,19 @@ button:active{
 }
 
 .box-1{
-    background-image: url("/images/services-1.png");
+    /* background-image: url("/images/services-1.png"); */
+    background-color: #191919;
 }
 
 .box-2{
-    background-image: url("/images/services-2.png");
+    /* background-image: url("/images/services-2.png"); */
+    background-color: #191919;
 }
 
+
 .box-3{
-    background-image: url("/images/servies-3.png");
+    background-color: #191919;
+    /* background-image: url("/images/servies-3.png"); */
 }
 
 .box-1 span, .box-2 span, .box-3 span{
@@ -284,7 +288,8 @@ button:active{
 .contact-me{
     width: 100%;
     height: 280px;
-    background-image: url("/images/contact-bg.png");
+    background-color: #191919;
+    /* background-image: url("/images/contact-bg.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

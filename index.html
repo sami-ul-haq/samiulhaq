@@ -21,6 +21,10 @@
                 <li><a href="#services">Our Services</a></li>
             </ul>
 
+            <div class="toggle">
+
+            </div>
+
         </nav>
 
         <!-- Text Area -->
@@ -126,6 +130,18 @@
         <a href="#"><i class="fa fa-youtube"></i></a>
 
     </div>
+    
+    <script src="./js/jQuery.js"></script>
+    <script>
 
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+
+            })
+        });
+
+    </script>
 </body>
 </html>

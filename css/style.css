@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
@@ -42,6 +44,14 @@ nav ul li a{
     font-size: 1em;
     font-weight: 700;
 }
+
+nav>a{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 3px;
+}
+
 
 .toggle{
     display: none;
@@ -118,9 +128,10 @@ button:active{
 
 .model{
     height: 530px;
+    max-width: 100%;
     position: absolute;
     bottom: 0px;
-    left: 70%;
+    left: 60%;
 }
 
 .about-container{
@@ -228,19 +239,19 @@ button:active{
 }
 
 .box-1{
-    /* background-image: url("/images/services-1.png"); */
+    background-image: url("/images/services-1.png");
     background-color: #191919;
 }
 
 .box-2{
-    /* background-image: url("/images/services-2.png"); */
+    background-image: url("/images/services-2.png");
     background-color: #191919;
 }
 
 
 .box-3{
     background-color: #191919;
-    /* background-image: url("/images/servies-3.png"); */
+    background-image: url("/images/servies-3.png");
 }
 
 .box-1 span, .box-2 span, .box-3 span{
@@ -289,7 +300,7 @@ button:active{
     width: 100%;
     height: 280px;
     background-color: #191919;
-    /* background-image: url("/images/contact-bg.png"); */
+    background-image: url(/images/contact-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -411,7 +422,7 @@ footer p:nth-child(2){
         box-sizing: border-box;
     }
     .model{
-        height: 330px;
+        height: 380px;
         left: 85%;
         transform: translateX(-90%);
     }

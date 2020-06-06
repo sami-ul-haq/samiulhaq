@@ -317,6 +317,11 @@ t: bold;
     max-width: 100%;
 }
 
+.box a{
+    color: black;
+    font-size: 1.3em;
+}
+
 .contact-me{
     width: 100%;
     height: 280px;
